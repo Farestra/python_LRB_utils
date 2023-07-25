@@ -76,10 +76,10 @@ def list_filtered(l: list, filter: str) -> list:
         print(e)
 
 def obtain_filename(l: list) -> list:
-    """Return a list of filenames from a list of urls
+    """Return a list of filenames from a list of ULR's
     
     Args:
-        l (list): Given List of url's
+        l (list): Given List of ULR's
 
     Returns:
         list: Returned list of filenames
@@ -149,6 +149,7 @@ def download_dict(d:dict, w: int = 1) -> None:
             if r:
                 print(str(v)+" OK")
             else:
+                #If the file already exists, do not download it again
                 print(str(v)+" File already exists")
             t=random.randint(0,w)
             sleep(t)
