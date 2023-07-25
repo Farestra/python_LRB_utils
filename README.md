@@ -1,5 +1,5 @@
 
-# python_ListBucketResult_utils
+# python_LRB_utils
 Python code for pharsing xml and perform seequiencial downloads. 
 The exposed code **requires a well-formed and sanitized xml file** to work, 
 otherwise the functions might throw some exceptions.
