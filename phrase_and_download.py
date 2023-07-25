@@ -32,7 +32,7 @@ def verify_exists(f: str) -> bool:
         print(e)
 
 def pharse_file(f: str, k: str, p: str = None) -> list:
-    """Return a list of all values for a specific key of a given xml file.
+    """Return a list of all values for a specific tag of a given xml file.
     This function requires a sanitized xml file.
 
     Args:
