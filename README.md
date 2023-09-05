@@ -1,6 +1,6 @@
 
 # python_LRB_utils
-Python code for pharsing xml and perform seequiencial downloads. 
+Python code for pharsing xml and perform sequiencial downloads. 
 The exposed code **requires a well-formed and sanitized xml file** to work, 
 otherwise the functions might throw some exceptions.
 - *Example of use:*
